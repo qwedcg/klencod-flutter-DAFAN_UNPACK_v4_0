@@ -1,0 +1,3 @@
+DAFAN-UNPACK embeds the user's custom Lua parser/compiler engine derived from nadeem.py.
+The Android app calls the Python engine through Chaquopy. The GitHub Actions workflow builds the ARM64 luadec and luac5.3 executables from the upstream viruscamp/luadec repository and packages them as app assets.
+LuaDec upstream describes Lua 5.2/5.3 support as experimental. Successful operation is limited to the bytecode layout implemented by the user's source tool.
